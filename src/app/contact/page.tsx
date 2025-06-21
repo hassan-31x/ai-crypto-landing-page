@@ -11,7 +11,7 @@ export default function Contact() {
     {
       icon: EnvelopeSimple,
       title: 'Email Us',
-      details: 'support@lunexa.com',
+      details: 'support@synapsex.com',
       description: 'Get in touch with our support team'
     },
     {
@@ -55,7 +55,7 @@ export default function Contact() {
               <span className="gradient-text">Contact Us</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/70 max-w-4xl mx-auto leading-relaxed">
-              Have questions about Lunexa? We're here to help. Reach out to our team 
+              Have questions about SynapseX? We're here to help. Reach out to our team 
               and we'll get back to you as soon as possible.
             </p>
           </motion.div>
@@ -162,7 +162,7 @@ export default function Contact() {
                     className="w-4 h-4 text-indigo-500 bg-white/10 border-white/20 rounded focus:ring-indigo-500"
                   />
                   <label htmlFor="newsletter" className="ml-2 text-white/80 text-sm">
-                    I'd like to receive updates about Lunexa's latest features and market insights
+                    I'd like to receive updates about SynapseX's latest features and market insights
                   </label>
                 </div>
 

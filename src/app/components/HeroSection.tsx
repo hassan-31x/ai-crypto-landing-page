@@ -2,12 +2,90 @@
 
 import { motion } from 'framer-motion';
 import { ArrowRight, Play } from '@phosphor-icons/react';
+import { useEffect, useRef } from 'react';
 import ScrollAnimation from './ScrollAnimation';
+import '../../types/unicorn-studio';
 
 const HeroSection = () => {
+  const backgroundRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Load Unicorn Studio script if not already loaded
+    if (!window.UnicornStudio) {
+      window.UnicornStudio = { isInitialized: false };
+      
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.25/dist/unicornStudio.umd.js';
+      script.onload = () => {
+        if (!window.UnicornStudio.isInitialized && window.UnicornStudio.addScene) {
+          // Initialize the specific scene for the background
+          window.UnicornStudio.addScene({
+            elementId: 'hero-background',
+            projectId: 'dkdlkgocTREefl6xMTBl',
+            fps: 60,
+            scale: 1,
+            dpi: 1.5,
+            lazyLoad: false,
+            fixed: true,
+            interactivity: {
+              mouse: {
+                disableMobile: true,
+              },
+            },
+          }).then((scene: any) => {
+            console.log('Hero background scene loaded successfully', scene);
+          }).catch((err: any) => {
+            console.error('Failed to load hero background scene:', err);
+          });
+          
+          window.UnicornStudio.isInitialized = true;
+        }
+      };
+      
+      (document.head || document.body).appendChild(script);
+    } else if (window.UnicornStudio.addScene) {
+      // If UnicornStudio is already loaded, directly add the scene
+      window.UnicornStudio.addScene({
+        elementId: 'hero-background',
+        projectId: 'dkdlkgocTREefl6xMTBl',
+        fps: 60,
+        scale: 1,
+        dpi: 1.5,
+        lazyLoad: false,
+        fixed: true,
+        interactivity: {
+          mouse: {
+            disableMobile: true,
+          },
+        },
+      }).then((scene: any) => {
+        console.log('Hero background scene loaded successfully', scene);
+      }).catch((err: any) => {
+        console.error('Failed to load hero background scene:', err);
+      });
+    }
+
+    // Cleanup function
+    return () => {
+      if (window.UnicornStudio && window.UnicornStudio.destroy) {
+        window.UnicornStudio.destroy();
+      }
+    };
+  }, []);
+
   return (
-    <section id="hero" className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pt-28">
-      <div className="max-w-7xl mx-auto text-center">
+    <section id="hero" className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pt-28 relative">
+      
+        {/* Unicorn Studio Background */}
+      <div 
+        id="hero-background" 
+        className="absolute inset-0 w-full h-full z-0 top-[0%]"
+        style={{ width: '100%', height: '100%' }}
+      />
+
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/30 z-10" />   
+      <div className="max-w-7xl mx-auto text-center z-20">
         {/* Hero Content */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -44,7 +122,7 @@ const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl md:text-2xl text-white/70 mb-12 max-w-4xl mx-auto leading-relaxed"
           >
-            Experience the future of cryptocurrency trading with Lunexa's advanced AI assistant. 
+            Experience the future of cryptocurrency trading with SynapseX's advanced AI assistant. 
             Automate your trades, maximize profits, and stay ahead of market trends with 
             institutional-grade technology.
           </motion.p>
@@ -75,10 +153,9 @@ const HeroSection = () => {
         </motion.div>
 
         {/* Product Mockup */}
-        <ScrollAnimation delay={0.9}>
+        {/* <ScrollAnimation delay={0.9}>
           <div className="relative max-w-6xl mx-auto">
             <div className="glass-card p-8 rounded-3xl">
-              {/* Placeholder for product mockup */}
               <div className="aspect-[16/10] bg-gradient-to-br from-indigo-500/20 to-purple-500/20 rounded-2xl flex items-center justify-center border border-white/10">
                 <div className="text-center">
                   <div className="w-16 h-16 mx-auto mb-4 bg-white/10 rounded-xl flex items-center justify-center">
@@ -90,7 +167,6 @@ const HeroSection = () => {
               </div>
             </div>
             
-            {/* Floating Elements */}
             <motion.div
               animate={{ 
                 y: [0, -20, 0],
@@ -118,7 +194,7 @@ const HeroSection = () => {
               className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl opacity-15 blur-xl"
             />
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
     </section>
   );

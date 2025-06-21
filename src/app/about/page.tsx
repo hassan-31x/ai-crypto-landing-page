@@ -59,7 +59,7 @@ export default function About() {
             transition={{ duration: 1 }}
           >
             <h1 className="text-5xl md:text-7xl font-light mb-6">
-              <span className="gradient-text">About Lunexa</span>
+              <span className="gradient-text">About SynapseX</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/70 max-w-4xl mx-auto leading-relaxed">
               We're on a mission to democratize sophisticated trading strategies and make 
@@ -98,7 +98,7 @@ export default function About() {
               </h2>
               <div className="space-y-6 text-white/80 leading-relaxed">
                 <p>
-                  Lunexa was born from a simple observation: the cryptocurrency market operates 24/7, 
+                SynapseX was born from a simple observation: the cryptocurrency market operates 24/7, 
                   but human traders need sleep. While institutional investors leverage sophisticated 
                   algorithms and AI systems, individual traders were left with basic tools and emotional decision-making.
                 </p>
@@ -114,7 +114,7 @@ export default function About() {
                   an AI trading platform that brings institutional-grade technology to everyone.
                 </p>
                 <p>
-                  Today, Lunexa serves over 50,000 traders worldwide, managing over $2.1 billion in 
+                  Today, SynapseX serves over 50,000 traders worldwide, managing over $2.1 billion in 
                   trading volume. Our AI has evolved through millions of trades, continuously learning 
                   and adapting to market conditions while maintaining a 94% success rate.
                 </p>
@@ -133,7 +133,7 @@ export default function About() {
                 <span className="gradient-text">Meet Our Team</span>
               </h2>
               <p className="text-xl text-white/70">
-                The brilliant minds behind Lunexa's revolutionary AI trading technology.
+                The brilliant minds behind SynapseX's revolutionary AI trading technology.
               </p>
             </div>
 

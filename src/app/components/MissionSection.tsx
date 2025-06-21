@@ -27,9 +27,9 @@ const MissionSection = () => {
               
               <div className="grid md:grid-cols-2 gap-8 mt-12">
                 <div className="text-left">
-                  <h3 className="text-xl font-light text-white mb-4">Why We Built Lunexa</h3>
+                  <h3 className="text-xl font-light text-white mb-4">Why We Built SynapseX</h3>
                   <p className="text-white/70 leading-relaxed">
-                    We witnessed too many talented traders lose money due to emotional decisions, market manipulation, and lack of access to professional tools. The crypto market never sleeps, but humans need rest. We built Lunexa to level the playing field.
+                    We witnessed too many talented traders lose money due to emotional decisions, market manipulation, and lack of access to professional tools. The crypto market never sleeps, but humans need rest. We built SynapseX to level the playing field.
                   </p>
                 </div>
                 

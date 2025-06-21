@@ -50,7 +50,7 @@ const Navigation = () => {
               className="flex-shrink-0"
               whileHover={{ scale: 1.05 }}
             >
-              <h1 className="text-2xl font-bold gradient-text">Lunexa</h1>
+              <h1 className="text-2xl font-bold gradient-text">SynapseX</h1>
             </motion.div>
 
             {/* Desktop Navigation */}

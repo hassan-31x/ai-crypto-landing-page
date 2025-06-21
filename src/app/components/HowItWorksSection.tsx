@@ -8,7 +8,7 @@ const HowItWorksSection = () => {
     {
       icon: Wallet,
       title: 'Connect Your Wallet',
-      description: 'Securely link your crypto wallet to Lunexa. We support all major wallets including MetaMask, Coinbase Wallet, and WalletConnect.',
+      description: 'Securely link your crypto wallet to SynapseX. We support all major wallets including MetaMask, Coinbase Wallet, and WalletConnect.',
       step: '01'
     },
     {
@@ -34,7 +34,7 @@ const HowItWorksSection = () => {
               <span className="gradient-text">How It Works</span>
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Get started with Lunexa in three simple steps and begin your journey to automated crypto trading success.
+              Get started with SynapseX in three simple steps and begin your journey to automated crypto trading success.
             </p>
           </div>
         </ScrollAnimation>

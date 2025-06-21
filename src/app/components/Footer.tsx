@@ -47,7 +47,7 @@ const Footer = () => {
           {/* Brand column */}
           <div className="col-span-2">
             <div className="mb-6">
-              <h3 className="text-2xl font-bold gradient-text mb-4">Lunexa</h3>
+              <h3 className="text-2xl font-bold gradient-text mb-4">SynapseX</h3>
               <p className="text-white/70 text-sm leading-relaxed max-w-sm">
                 Revolutionizing cryptocurrency trading with advanced AI technology. 
                 Trade smarter, not harder, with institutional-grade algorithms.
@@ -112,7 +112,7 @@ const Footer = () => {
         {/* Bottom footer */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-white/60 text-sm mb-4 md:mb-0">
-            © {currentYear} Lunexa. All rights reserved.
+            © {currentYear} SynapseX. All rights reserved.
           </div>
           
           <div className="flex items-center space-x-6 text-sm text-white/60">

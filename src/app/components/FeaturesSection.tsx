@@ -40,7 +40,7 @@ const FeaturesSection = () => {
               <span className="gradient-text">Powerful Features</span>
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Discover the cutting-edge features that make Lunexa the most advanced AI trading platform in the cryptocurrency market.
+              Discover the cutting-edge features that make SynapseX the most advanced AI trading platform in the cryptocurrency market.
             </p>
           </div>
         </ScrollAnimation>

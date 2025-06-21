@@ -74,7 +74,7 @@ export default function Blog() {
             transition={{ duration: 1 }}
           >
             <h1 className="text-5xl md:text-7xl font-light mb-6">
-              <span className="gradient-text">Lunexa Blog</span>
+              <span className="gradient-text">SynapseX Blog</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/70 max-w-4xl mx-auto leading-relaxed">
               Insights, strategies, and the latest developments in AI-powered cryptocurrency trading.
@@ -204,7 +204,7 @@ export default function Blog() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="glass-card p-8 md:p-12">
               <h3 className="text-3xl font-light text-white mb-4">
-                Stay Updated with <span className="gradient-text">Lunexa Insights</span>
+                Stay Updated with <span className="gradient-text">SynapseX Insights</span>
               </h3>
               <p className="text-white/70 mb-8">
                 Get the latest market analysis, trading strategies, and AI developments delivered to your inbox.

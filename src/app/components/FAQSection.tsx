@@ -9,16 +9,16 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: 'How does Lunexa\'s AI trading technology work?',
-      answer: 'Lunexa uses advanced machine learning algorithms that analyze thousands of market indicators, news sentiment, technical patterns, and historical data in real-time. Our AI continuously learns from market movements and adapts its strategies to optimize trading performance while managing risk according to your preferences.'
+      question: 'How does SynapseX\'s AI trading technology work?',
+      answer: 'SynapseX uses advanced machine learning algorithms that analyze thousands of market indicators, news sentiment, technical patterns, and historical data in real-time. Our AI continuously learns from market movements and adapts its strategies to optimize trading performance while managing risk according to your preferences.'
     },
     {
-      question: 'Is my cryptocurrency safe with Lunexa?',
-      answer: 'Absolutely. We never hold your cryptocurrency directly. Lunexa connects to your existing exchange accounts through secure API keys with trading-only permissions. Your funds remain in your exchange accounts, and we use bank-grade encryption and security protocols to protect your data and trading activities.'
+      question: 'Is my cryptocurrency safe with SynapseX?',
+      answer: 'Absolutely. We never hold your cryptocurrency directly. SynapseX connects to your existing exchange accounts through secure API keys with trading-only permissions. Your funds remain in your exchange accounts, and we use bank-grade encryption and security protocols to protect your data and trading activities.'
     },
     {
-      question: 'What exchanges does Lunexa support?',
-      answer: 'Lunexa currently supports major exchanges including Binance, Coinbase Pro, Kraken, Bitfinex, and many others. We\'re continuously adding support for new exchanges based on user demand. You can check our full list of supported exchanges in your dashboard.'
+      question: 'What exchanges does SynapseX support?',
+      answer: 'SynapseX currently supports major exchanges including Binance, Coinbase Pro, Kraken, Bitfinex, and many others. We\'re continuously adding support for new exchanges based on user demand. You can check our full list of supported exchanges in your dashboard.'
     },
     {
       question: 'Can I customize my trading strategy?',
@@ -26,7 +26,7 @@ const FAQSection = () => {
     },
     {
       question: 'What happens if the market crashes?',
-      answer: 'Lunexa\'s AI includes sophisticated risk management features designed to protect your portfolio during market downturns. This includes automatic stop-losses, position sizing based on volatility, and the ability to switch to defensive strategies during high-risk periods. You can also set maximum daily loss limits.'
+      answer: 'SynapseX\'s AI includes sophisticated risk management features designed to protect your portfolio during market downturns. This includes automatic stop-losses, position sizing based on volatility, and the ability to switch to defensive strategies during high-risk periods. You can also set maximum daily loss limits.'
     },
     {
       question: 'How much money do I need to start?',
@@ -55,7 +55,7 @@ const FAQSection = () => {
               <span className="gradient-text">Frequently Asked Questions</span>
             </h2>
             <p className="text-xl text-white/70">
-              Everything you need to know about Lunexa's AI trading platform.
+              Everything you need to know about SynapseX's AI trading platform.
             </p>
           </div>
         </ScrollAnimation>

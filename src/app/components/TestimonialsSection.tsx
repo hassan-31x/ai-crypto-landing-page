@@ -13,7 +13,7 @@ const TestimonialsSection = () => {
       name: 'Sarah Chen',
       role: 'Day Trader',
       avatar: 'SC',
-      content: 'Lunexa has completely transformed my trading strategy. The AI insights are incredibly accurate, and I\'ve seen consistent profits since day one.',
+      content: 'SynapseX has completely transformed my trading strategy. The AI insights are incredibly accurate, and I\'ve seen consistent profits since day one.',
       result: '+284% ROI in 6 months',
       rating: 5
     },
@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
       name: 'Marcus Rodriguez',
       role: 'Portfolio Manager',
       avatar: 'MR',
-      content: 'The automated risk management features saved my portfolio during the last market crash. Lunexa\'s AI is like having a professional trader working 24/7.',
+      content: 'The automated risk management features saved my portfolio during the last market crash. SynapseX\'s AI is like having a professional trader working 24/7.',
       result: '+156% annual returns',
       rating: 5
     },
@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
       name: 'Emily Watson',
       role: 'Crypto Investor',
       avatar: 'EW',
-      content: 'I was skeptical about AI trading, but Lunexa proved me wrong. The platform is intuitive, and the results speak for themselves.',
+      content: 'I was skeptical about AI trading, but SynapseX proved me wrong. The platform is intuitive, and the results speak for themselves.',
       result: '+92% profit in 3 months',
       rating: 5
     },
@@ -37,7 +37,7 @@ const TestimonialsSection = () => {
       name: 'David Kim',
       role: 'DeFi Enthusiast',
       avatar: 'DK',
-      content: 'Lunexa\'s integration with DeFi protocols is seamless. I can now automate complex yield farming strategies with confidence.',
+      content: 'SynapseX\'s integration with DeFi protocols is seamless. I can now automate complex yield farming strategies with confidence.',
       result: '+340% yield optimization',
       rating: 5
     },
@@ -45,7 +45,7 @@ const TestimonialsSection = () => {
       name: 'Lisa Thompson',
       role: 'Financial Advisor',
       avatar: 'LT',
-      content: 'I recommend Lunexa to all my clients interested in crypto. The security features and transparent reporting give me peace of mind.',
+      content: 'I recommend SynapseX to all my clients interested in crypto. The security features and transparent reporting give me peace of mind.',
       result: '+198% client satisfaction',
       rating: 5
     }
@@ -76,7 +76,7 @@ const TestimonialsSection = () => {
               <span className="gradient-text">Success Stories</span>
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Join thousands of traders who have transformed their crypto trading with Lunexa's AI-powered platform.
+              Join thousands of traders who have transformed their crypto trading with SynapseX's AI-powered platform.
             </p>
           </div>
         </ScrollAnimation>
